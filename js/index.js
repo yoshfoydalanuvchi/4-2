@@ -121,7 +121,7 @@ d = 1;
 //   res = 0;
 // }
 
-console.log(res);
+// console.log(res);
 
 // 12
 
@@ -183,3 +183,75 @@ console.log(res);
 // }
 
 // console.log(sum1, sum2);
+
+//Boolen
+let A = 5;
+
+//1
+if (A > 0) {
+  console.log("Rost");
+} else console.log("Yolgon");
+
+//2
+if (A % 2 !== 0) {
+  console.log("Rost");
+} else console.log("Yolgon");
+
+//3
+A = 8;
+if (A % 2 === 0) {
+  console.log("Rost");
+} else console.log("Yolgon");
+
+//4
+A = 4;
+let B = 3;
+if (A > 2 && B <= 3) {
+  console.log("Rost");
+} else console.log("Yolgon");
+
+//5
+A = 1;
+B = -3;
+if (A >= 0 || B < -2) {
+  console.log("Rost");
+} else console.log("Yolgon");
+
+//6
+A = 1;
+B = 2;
+C = 3;
+if (A <= B && B <= C) {
+  console.log("Rost");
+} else console.log("Yolgon");
+
+//7
+A = 1;
+B = 2;
+C = 3;
+if ((A < B && B < C) || (C < B && B < A)) {
+  console.log("Rost");
+} else console.log("Yolgon");
+
+//8
+A = 1;
+B = 3;
+if (A % 2 !== 0 && B % 2 !== 0) {
+  console.log("Rost");
+} else console.log("Yolgon");
+
+//9
+A = 1;
+B = 3;
+if ((A % 2 !== 0 || B % 2 !== 0) && !(A % 2 !== 0 && B % 2 !== 0)) {
+  console.log("Rost");
+} else console.log("Yolgon");
+
+//10
+A = 1;
+B = 3;
+
+// A ni toq son deb tekshiramiz, B ni esa toq son emas
+if (A % 2 !== 0 && B % 2 !== 0 && (A % 2 !== 0 || B % 2 === 0)) {
+  console.log("Rost");
+} else console.log("Yolgon");
